@@ -50,5 +50,6 @@ public class ComarcaDTO
 
 ## Webgrafia
 
-Npgsql. (s. f.). GitHub - npgsql/npgsql: Npgsql is the .NET data provider for PostgreSQL. GitHub. https://github.com/npgsql/npgsql 
+Npgsql. (s. f.). GitHub - npgsql/npgsql: Npgsql is the .NET data provider for PostgreSQL. GitHub. https://github.com/npgsql/npgsql
+
 Store and read connection string in appsettings.json - ConnectionStrings.com. (s. f.). https://www.connectionstrings.com/store-and-read-connection-string-in-appsettings-json/
