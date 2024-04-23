@@ -3,12 +3,12 @@
 ## IA
 
 ### haz la query para este metodo  : DeleteComarca(int CodiComarca)
-
+```
 DELETE FROM NombreTablaComarcas
 WHERE CodiComarca = @CodiComarca;
-
+````
 ### adáptalo para usarlo en c#
-
+```
 using System.Data.SqlClient;
 
 public void DeleteComarca(int CodiComarca)
@@ -32,10 +32,9 @@ public void DeleteComarca(int CodiComarca)
         command.ExecuteNonQuery();
     }
 }
-
+```
 ### crea un clase ComarcaDTO con los siguientes atributos publicos: Year,Codi comarca,Comarca,Població,Domèstic xarxa,Activitats econòmiques i fonts pròpies,Total,Consum domèstic per càpita
-
-
+```
 public class ComarcaDTO
 {
     public int Year { get; set; }
@@ -47,6 +46,7 @@ public class ComarcaDTO
     public int Total { get; set; }
     public int ConsumDomèsticPerCàpita { get; set; }
 }
+```
 
 ## Webgrafia
 
